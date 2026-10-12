@@ -1,8 +1,8 @@
 # Security Policy
 
-Spradley handles employee personal data (PII) and runs an employee engagement
-platform for mid-size companies. Security and privacy are core requirements, not
-afterthoughts. We take reports seriously.
+Spradley handles employee personal data (PII): it interviews a company's
+people and turns their answers into reports. Security and privacy are core
+requirements, not afterthoughts. We take reports seriously.
 
 This policy applies to all repositories in the Spradley.io organization.
 
@@ -26,7 +26,7 @@ In scope:
 
 - Spradley web applications, APIs, and backend services.
 - Authentication and authorization.
-- PII handling, anonymity, and k-anonymity guarantees in analytics.
+- PII handling, redaction, and the minimum group size in reporting.
 - Data export, deletion, and consent flows (GDPR).
 
 Out of scope:

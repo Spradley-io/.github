@@ -1,24 +1,25 @@
 # Spradley.io
 
-AI-powered employee engagement interview platform for mid-size companies.
-We generate interviews, collect anonymous responses via magic links, and turn
-them into automated insight reports, with privacy and GDPR built in from the
-ground up.
+Spradley interviews a company's people, with questions asked partly by AI, and
+turns their answers into reports for the company. Consent, audit logs, data
+export and deletion are built into the product.
 
 ## Principles
 
-- **Privacy first.** Employee answers are scrubbed of PII before any AI
-  processing. Department-level analytics are gated by k-anonymity.
-- **No GDPR shortcuts.** Consent, audit logs, and data export/deletion are real
-  features, not afterthoughts.
-- **Security by default.** Row-Level Security everywhere, least-privilege access.
+- **Privacy by design.** Reports, quotes and analysis read redacted answers
+  only, and nothing is reported about a group of fewer than five people.
+- **No GDPR shortcuts.** Consent, audit logs, and data export and deletion are
+  requirements, not features added later.
+- **Isolation by construction.** A company's data is reachable only through a
+  data-access layer that cannot be built without that company's scope.
 
 ## Repositories
 
-These org-wide defaults (issue/PR templates, `SECURITY.md`, `CONTRIBUTING.md`)
-apply to every repository in the org that does not define its own.
+These org-wide defaults (issue and PR templates, `SECURITY.md`,
+`CONTRIBUTING.md`) apply to every repository in the org that does not define
+its own.
 
 ## Security
 
 Found a vulnerability? Please do not open a public issue. See
-[SECURITY.md](./SECURITY.md).
+[SECURITY.md](https://github.com/Spradley-io/.github/blob/main/SECURITY.md).

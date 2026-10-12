@@ -14,5 +14,6 @@
 
 - [ ] Lint and type-check pass
 - [ ] Tests pass
-- [ ] No PII leaks into AI processing or logs
+- [ ] No PII in logs, and reporting reads redacted answers only
+- [ ] Every new query on company data goes through the company scope
 - [ ] Docs updated if behavior changed
